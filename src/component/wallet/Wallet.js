@@ -1,9 +1,9 @@
 import React from "react"
 import axios from "axios"
 import "./Wallet.css"
-import AllTransactions from "./allTransactions/AllTransactions";
+import AllTransactions from "./AllTransactions/AllTransactions";
 import { Link } from "react-router-dom"
-import Footer from "./footer/Footer";
+import Footer from "./Footer/Footer";
 
 
 class Wallet extends React.Component {
