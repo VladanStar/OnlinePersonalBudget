@@ -1,5 +1,5 @@
 import React from "react"
-import SingleItem from "./singleItem/SingleItem"
+import SingleItem from "./SingleItem/SingleItem"
 import PropTypes from "prop-types"
 
 const AllTransactions = ({ allTrans }) => {
