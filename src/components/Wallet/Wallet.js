@@ -64,7 +64,7 @@ class Wallet extends React.Component {
                         <h2>{
                             this.state.transactions.forEach((trans, index) => {
                                 return (
-                                    this.state.summ += trans.amount
+                                    this.setState.summ += trans.amount
                                 )
                             })
                         }

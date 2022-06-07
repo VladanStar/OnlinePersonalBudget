@@ -100,7 +100,7 @@ class Login extends React.Component {
               </div>
             </div>
             <div className="forgotPass">
-              <a href=""> <h5>Forgot password?</h5></a>
+              <a href="#"> <h5>Forgot password?</h5></a>
             </div>
           </div>
           <div className="button">

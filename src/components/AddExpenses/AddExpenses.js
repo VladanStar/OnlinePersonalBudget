@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react"
 import SingleCategories from "./SingleCategories/SingleCategories";
 import { Link } from "react-router-dom"
-import "./Addexpenses.css"
+import "./AddExpenses.css"
 import { document, querySelector } from 'jquery';
 import Footer from "../Wallet/Footer/Footer";
 

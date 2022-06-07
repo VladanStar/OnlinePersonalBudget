@@ -1,0 +1,40 @@
+.singleCategory {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+.active {
+  background: #7fc48114;
+  border-radius: 10px;
+}
+.singleCategory h2 {
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.singleCategory h3 {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.rightDiv {
+  display: flex;
+}
+.butt {
+  display: flex;
+}
+.leftDiv div {
+  margin-right: 19px;
+}
+.inputDiv {
+  display: flex;
+  align-items: center;
+}
