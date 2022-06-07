@@ -1,0 +1,122 @@
+.wrapWallet {
+    padding: 23px 20px;
+    border: black 1px solid;
+}
+
+.summWrap {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.summWrap h3 {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin-bottom: 14px;
+}
+
+.summWrap h2 {
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #5e9c60;
+}
+
+.summWrap span {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin-bottom: 14px;
+}
+
+.addWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+}
+
+.addWrap .income {
+    display: flex;
+    height: 60px;
+    width: 174px;
+    left: 22px;
+    top: 218px;
+    border-radius: 14px;
+    padding: 6px, 10px, 6px, 10px;
+    background: #f2f9f2;
+    padding: 5px;
+    color: #5e9c60;
+}
+
+.addWrap .expense {
+    display: flex;
+    height: 60px;
+    width: 174px;
+    left: 22px;
+    top: 218px;
+    border-radius: 14px;
+    padding: 6px, 10px, 6px, 10px;
+    background: #fdecec;
+    padding: 5px;
+    color: #e35959;
+}
+
+.addWrap div h3 {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: auto;
+}
+
+.income button {
+    height: 48px;
+    width: 48px;
+    left: 115.5px;
+    top: 6px;
+    border-radius: 14px;
+    padding: 10px;
+    background: #d9efd999;
+    border: none;
+    color: #5e9c60;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.expense button {
+    height: 48px;
+    width: 48px;
+    left: 115.5px;
+    top: 6px;
+    border-radius: 14px;
+    padding: 10px;
+    background: #f9c4c499;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    color: #e35959;
+}
+
+.main {
+    padding-top: 60.5px;
+    margin-top: 33.5;
+}
+
+.header {
+    padding-bottom: 33.5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
