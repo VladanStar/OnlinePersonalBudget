@@ -1,12 +1,12 @@
 import React from "react"
-import Login from "./components/login/Login"
+import Login from "./components/Login/Login"
 import { Switch, Link, Route } from "react-router-dom"
 import Wallet from "./components/Wallet/Wallet"
 import "./app.css"
 import AddExpenses from "./components/AddExpenses/AddExpenses"
 import AddIncome from "./components/AddIncome/AddIncome"
-import LogOut from "./components/logout/Logout"
-import Register from "./components/register/Register"
+import LogOut from "./components/Logout/Logout"
+import Register from "./components/Register/Register"
 
 function App() {
   return (

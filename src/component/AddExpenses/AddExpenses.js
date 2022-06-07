@@ -4,7 +4,7 @@ import SingleCategories from "./SingleCategories/SingleCategories";
 import { Link } from "react-router-dom"
 import "./Addexpenses.css"
 import { document, querySelector } from 'jquery';
-import Footer from "../Wallet/footer/Footer";
+import Footer from "../Wallet/Footer/Footer";
 
 class AddExpenses extends React.Component {
     constructor() {
