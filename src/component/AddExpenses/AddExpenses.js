@@ -1,6 +1,6 @@
 import axios from "axios";
 import React from "react"
-import SingleCategories from "./singleCategories/SingleCategories";
+import SingleCategories from "./SingleCategories/SingleCategories";
 import { Link } from "react-router-dom"
 import "./Addexpenses.css"
 import { document, querySelector } from 'jquery';
