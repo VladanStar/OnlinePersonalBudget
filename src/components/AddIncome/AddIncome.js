@@ -1,9 +1,9 @@
 import axios from "axios";
 import React from "react"
-import SingleCategoriesIncome from "./SingleCategoriesIncome/SingleCategoriesIncome";
+import SingleCategoriesIncome from "./singleCategoriesIncome/SingleCategoriesIncome";
 import { Link } from "react-router-dom"
-import "./Addincome.css"
-import Footer from "../Wallet/Footer/Footer";
+import "./addincome.css"
+import Footer from "../wallet/footer/Footer";
 
 class AddExpenses extends React.Component {
     constructor() {

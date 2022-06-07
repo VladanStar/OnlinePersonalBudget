@@ -1,5 +1,5 @@
 import React from "react"
-import "./SingleItem.css"
+import "./singleItem.css"
 import PropTypes from "prop-types"
 
 const SingleItem = ({ amount, description, svg, created }) => {
@@ -11,8 +11,8 @@ const SingleItem = ({ amount, description, svg, created }) => {
     const date = new Date(created);
     const day = date.getDate()
     const month = date.toLocaleString('default', { month: 'long' });
-    const iconImage = `${`https://budgetapp.digitalcube.rs/assets/icons/categories/`}${svg}`
-
+    const iconImage=`${`https://budgetapp.digitalcube.rs/assets/icons/categories/`}${svg}`
+    
 
     return (
         <div className="singleItem">
@@ -35,9 +35,9 @@ const SingleItem = ({ amount, description, svg, created }) => {
 
 SingleItem.propTypes = {
     amount: PropTypes.number,
-    description: PropTypes.string,
-    idChsvgeckboxState: PropTypes.string,
-    created: PropTypes.string
-}
+    description:PropTypes.string,
+    idChsvgeckboxState:PropTypes.string,
+    created:PropTypes.string
+  }
 
 export default SingleItem

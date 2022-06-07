@@ -1,6 +1,6 @@
 import React from "react"
 import $ from 'jquery';
-import "./Singlecategories.css"
+import "./singlecategories.css"
 import PropTypes from "prop-types"
 
 

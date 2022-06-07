@@ -1,7 +1,7 @@
 import React from "react"
 import axios from "axios"
-import Footer from "../Wallet/Footer/Footer"
-import "./Logout.css"
+import Footer from "../wallet/footer/Footer"
+import "./logout.css"
 
 class LogOut extends React.Component {
     constructor() {

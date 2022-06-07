@@ -1,87 +1,78 @@
 .expenseWrap {
-    text-align: center;
-    border: black solid 1px;
-    padding: 23px 20px;
+  text-align: center;
+  border: black solid 1px;
+  padding: 23px 20px;
 }
-
 .headerExpenses {
-    display: flex;
-    position: relative;
-    margin-top: 57px;
-    margin-bottom: 79px;
+  display: flex;
+  position: relative;
+  margin-top: 57px;
+  margin-bottom: 79px;
 }
-
 .iconHeader {
-    position: absolute;
+  position: absolute;
 }
-
 .titleHeader {
-    margin: auto;
+  margin: auto;
 }
-
 .titleHeader h3 {
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0em;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
 }
-
 .amountInput {
-    position: relative;
+  position: relative;
 }
-
 .amountInput input {
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    background-color: #fff;
-    width: 100%;
-    margin-bottom: 51px;
-    padding-left: 15px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 51px;
+  padding-left: 15px;
 }
-
 .descriptionInput input {
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    background-color: #fff;
-    width: 100%;
-    margin-bottom: 51px;
-    padding-left: 15px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 51px;
+  padding-left: 15px;
 }
-
 .amountInput h5 {
-    position: absolute;
-    right: 0px;
-    border-left: solid 1px black;
-    padding-left: 11px;
-    font-family: Lato;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 14px;
-    letter-spacing: 0em;
-    top: 0px;
+  position: absolute;
+  right: 0px;
+  border-left: solid 1px black;
+  padding-left: 11px;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  top: 0px;
 }
-
-button {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 120px;
-    background: #5e9c60;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0em;
-    margin-bottom: 20px;
+button{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 120px;
+  background: #5e9c60;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
 }

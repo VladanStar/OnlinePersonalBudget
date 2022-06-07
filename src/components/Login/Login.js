@@ -1,5 +1,5 @@
 import React from "react";
-import "./Login.css"
+import "./login.css"
 import axios from "axios"
 import { Link } from "react-router-dom"
 
@@ -100,7 +100,7 @@ class Login extends React.Component {
               </div>
             </div>
             <div className="forgotPass">
-              <a href="#"> <h5>Forgot password?</h5></a>
+              <a href=""> <h5>Forgot password?</h5></a>
             </div>
           </div>
           <div className="button">

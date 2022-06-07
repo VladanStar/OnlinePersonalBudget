@@ -1,9 +1,9 @@
 import React from "react"
-import SingleItem from "./SingleItem/SingleItem"
+import SingleItem from "./singleItem/SingleItem"
 import PropTypes from "prop-types"
 
 const AllTransactions = ({ allTrans }) => {
-
+ 
     return (
         <div>{
             allTrans.map((trans, index) => {
@@ -16,7 +16,7 @@ const AllTransactions = ({ allTrans }) => {
 }
 
 AllTransactions.propTypes = {
-    allTrans: PropTypes.array
-}
+    allTrans:PropTypes.array
+  }
 
 export default AllTransactions

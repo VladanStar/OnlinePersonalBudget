@@ -1,9 +1,9 @@
 import React from "react"
 import axios from "axios"
-import "./Wallet.css"
-import AllTransactions from "./AllTransactions/AllTransactions";
+import "./wallet.css"
+import AllTransactions from "./allTransactions/AllTransactions";
 import { Link } from "react-router-dom"
-import Footer from "./Footer/Footer";
+import Footer from "./footer/Footer";
 
 
 class Wallet extends React.Component {
@@ -64,7 +64,7 @@ class Wallet extends React.Component {
                         <h2>{
                             this.state.transactions.forEach((trans, index) => {
                                 return (
-                                    this.setState.summ += trans.amount
+                                    this.state.summ += trans.amount
                                 )
                             })
                         }
@@ -91,7 +91,7 @@ class Wallet extends React.Component {
                 </div>
 
                 <div className="footer">
-                    <Footer />
+                    <Footer/>
                 </div>
             </div>
         )

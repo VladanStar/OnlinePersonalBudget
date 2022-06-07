@@ -1,68 +1,61 @@
 .singleItem {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
 }
-
 .leftDiv {
-    display: flex;
+  display: flex;
 }
-
 .leftDiv h2 {
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
 }
-
 .leftDiv h3 {
-    font-family: Lato;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0em;
-    text-align: center;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
 }
-
 .dateWrap {
-    margin-right: 16px;
+  margin-right: 16px;
 }
-
 .rigDiv h3 {
-    font-family: Lato;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: right;
-    opacity: 0.7;
-    margin: 0px;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: right;
+  opacity: 0.7;
+  margin: 0px;
 }
-
 .rigDiv h2 {
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: right;
-    margin-right: 30px;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-right: 30px;
 }
-
 .rigDiv span {
-    font-family: Lato;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: right;
-    opacity: 0.5;
-    margin-left: 2px;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: right;
+  opacity: 0.5;
+  margin-left: 2px;
 }

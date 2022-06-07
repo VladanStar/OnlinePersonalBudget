@@ -1,10 +1,10 @@
 import axios from "axios";
 import React from "react"
-import SingleCategories from "./SingleCategories/SingleCategories";
+import SingleCategories from "./singleCategories/SingleCategories";
 import { Link } from "react-router-dom"
-import "./AddExpenses.css"
+import "./addexpenses.css"
 import { document, querySelector } from 'jquery';
-import Footer from "../Wallet/Footer/Footer";
+import Footer from "../wallet/footer/Footer";
 
 class AddExpenses extends React.Component {
     constructor() {
@@ -117,7 +117,7 @@ class AddExpenses extends React.Component {
                     <SingleCategories categories={this.state.categories} setId={this.setId} idCheckboxState={this.state.idCheckbox} />
                 </div>
                 <div className="footer">
-                    <Footer />
+                    <Footer/>
                 </div>
             </div>
         );

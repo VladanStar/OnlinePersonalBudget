@@ -1,6 +1,6 @@
 import React from "react"
 import $ from 'jquery';
-import "./Singlecategoriesincome.css"
+import "./singlecategoriesincome.css"
 import PropTypes from "prop-types"
 
 const SingleCategoriesIncome = ({ categories, setId, idCheckboxState }) => {
